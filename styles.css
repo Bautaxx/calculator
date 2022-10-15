@@ -3,16 +3,24 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 10em;
+    background-color: #0D0D0D;
+}
+.calculator{
+    display: flex;
 }
 .numbers{
     display: flex;
     flex-wrap: wrap;
     width: 60em;
     height: 30em;
+    border-radius: 5px;
 }
 
 button{
     width: 25%;
+    background-color: #A6A6A6;
+    font-size: 2em;
+    border-width: 0.01em;
 }
 
 .double-sized{
@@ -21,9 +29,13 @@ button{
 
 .display{
     width: 100%;
-    background-color: whitesmoke;
+    height: 5em;
+    border: none;
+    background-color: #A6A6A6;
     text-align: right;
 }
-span {
-    
+
+span{
+    color: #0D0D0D;
+    font-size: 4em;
 }
