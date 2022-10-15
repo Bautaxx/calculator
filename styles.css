@@ -1,41 +1,94 @@
 
 body {
+    background-color: rgb(49, 149, 207);
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 10em;
-    background-color: #0D0D0D;
+    align-items: center;
+    
 }
-.calculator{
-    display: flex;
-}
-.numbers{
-    display: flex;
-    flex-wrap: wrap;
-    width: 60em;
-    height: 30em;
-    border-radius: 5px;
+button{
+    width: 70%;
+    height: 80%;
+    font-size: 2em;
+    background-color: rgb(92, 88, 88);
+    color: white;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
 }
 
-button{
-    width: 25%;
-    background-color: #A6A6A6;
-    font-size: 2em;
-    border-width: 0.01em;
+.double-sized button{
+    border-radius: 5%;
+    height: 70%;
+    width: 70%;
 }
+
+
+button:hover {
+    transform: scale(1.1);
+    background-color: rgb(214, 214, 214);
+    color:  rgb(92, 88, 88);
+    box-shadow: 2px 2px 2px rgb(44, 44, 44);
+
+}
+span{ 
+    color:rgb(255, 255, 255);
+    font-size: 4em;
+    text-align: right;
+    margin-right: 0.2em;
+}
+
+p{
+    color: white;
+    font-size: 1.5em;
+    font-family:  Times, 'Times New Roman',
+}
+
+.calculator{
+    margin-top: 5em;
+    background-color: rgb(30, 29, 28);
+    border: 2px solid white ;
+    width: 30em;
+    height: 45em;
+    border-radius: 10px;
+}
+
+.top{
+    height: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.display{
+    width: 90%;
+    display: flex;
+    align-self: center;
+    justify-content: right;
+    background-color: rgb(149, 146, 146);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(127, 128, 128) inset;
+}
+
+.numbers{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 75%;
+
+}
+.selection-button{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
 
 .double-sized{
     width: 75% !important;
 }
 
-.display{
-    width: 100%;
-    height: 5em;
-    border: none;
-    background-color: #A6A6A6;
-    text-align: right;
-}
 
-span{
-    color: #0D0D0D;
-    font-size: 4em;
-}
+
+
+
