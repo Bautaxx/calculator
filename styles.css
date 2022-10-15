@@ -1,0 +1,29 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 10em;
+}
+.numbers{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60em;
+    height: 30em;
+}
+
+button{
+    width: 25%;
+}
+
+.double-sized{
+    width: 75% !important;
+}
+
+.display{
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: right;
+}
+span {
+    
+}
